@@ -5,6 +5,9 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class RepetitionOfLetters {
+    // Дан текст(текстовый файл формата .txt)
+    // Вернуть три наиболее часто встречающихся буквы
+    // Заглавные и прописные буквы считаются одинаковыми
 
     public static void main(String[] args) throws IOException {
         String fileName = "C:\\Users\\IVAN\\IdeaProjects\\RepetitionOfLetters\\out\\production\\RepetitionOfLetters\\edu\\lessons\\text.txt";
