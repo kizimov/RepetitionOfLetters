@@ -10,6 +10,9 @@ public class RepetitionOfLetters {
     // Заглавные и прописные буквы считаются одинаковыми
 
     public static void main(String[] args) throws IOException {
+        // у тебя явно указан путь к файлу. А что делать если скачали с гита и там другое расположение. Укажи, что файл лежит в отдельной папке /src/resources
+        //что будет делать программа если файла там не окажится. Можно чтоб она об єтом сообщила и попросила вручную ввести путь... 
+        //Все єто должно проискодить в отдельном сервисе (классе). 
         String fileName = "C:\\Users\\IVAN\\IdeaProjects\\RepetitionOfLetters\\out\\production\\RepetitionOfLetters\\edu\\lessons\\text.txt";
         String contents = readUsingScanner(fileName);
         process(textFormat(contents));
